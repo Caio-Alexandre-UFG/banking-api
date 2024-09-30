@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { prisma } from "../prisma";
-import { CheckingAccountService } from "../services/CheckingAccountService";
+import { CheckingAccountService } from "./CheckingAccountService";
 
 class CheckingAccountController {
   private checkingAccountService: CheckingAccountService;

@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { StatementService } from "../services/StatementService";
+import { StatementService } from "./StatementService";
 
 class StatementController {
   private statementService: StatementService;
@@ -135,7 +135,6 @@ class StatementController {
       this.handleError(res, error, "Error fetching statement by period.");
     }
   };
-
 
   private isValidAmountAndDescription(amount: any, description: any) {
     if (typeof amount !== "number" || amount <= 0) {

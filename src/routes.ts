@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { CheckingAccountController } from "./controllers/CheckingAccountController";
-import { StatementController } from "./controllers/StatementController";
-import { AuthController } from "./controllers/AuthController";
+import { CheckingAccountController } from "./account/CheckingAccountController";
+import { StatementController } from "./statement/StatementController";
+import { AuthController } from "./auth/AuthController";
 
 const routes = Router();
 
