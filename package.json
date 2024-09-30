@@ -1,0 +1,27 @@
+{
+  "name": "banking-api",
+  "version": "1.0.0",
+  "description": "* NodeJs v.20  \r    (Source: https://nodejs.org/)\r * Express\r    (Source: https://expressjs.com/)\r * Prisma\r    (Source: https://www.prisma.io/)\r * Node com TypeScript\r    (Source: https://nodejs.org/en/learn/getting-started/nodejs-with-typescript) \r * Ts-node-dev\r    (Source: https://www.npmjs.com/package/ts-node-dev)\r * Mongo Atlas\r   (Source: https://www.mongodb.com/cloud/atlas/register?utm_content=rlsapostreg&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_general_retarget-brand-postreg_gic-null_amers-all_ps-all_desktop_eng_lead&utm_term=&utm_medium=cpc_paid_search&utm_ad=&utm_ad_campaign_id=14412646452&adgroup=131761126052&cq_cmp=14412646452&gad_source=1&gclid=Cj0KCQjw8pKxBhD_ARIsAPrG45n5uONDTrtNnJEyrSgdry_f7NbtWODER_RY2Wp1E6T5Z9UrBPp2yrMaAvUoEALw_wcB)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.20.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^22.7.4",
+    "prisma": "^5.20.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  }
+}
